@@ -1,0 +1,16 @@
+<h1> this is component page...</h1>
+<h1>property binding start</h1>
+<h1 [innerHTML]="first_name"> </h1>
+<button [disabled]="bool" >click here</button>
+<h3 [innerHTML]="5+2"></h3> <!--  property bindding accept expression -->
+<h1 [innerHTML]="age">  </h1>
+
+
+<h1>{{last_name}}</h1>
+<!-- <h2 {{age}}></h2>  it is not supported because string interpollation not supported number datatype-->
+ <input type="text" value={{age}}> 
+<br><br>
+
+<h3>{{5+8 +" "+first_name}}</h3>
+<h1> string interpolation.........</h1>
+<p>my name is {{first_name}} and my age is {{age}}</p>
